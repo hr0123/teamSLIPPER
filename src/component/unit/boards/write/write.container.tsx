@@ -60,7 +60,7 @@ export default function WriteContainer(props: IWriteContainer) {
     IMutationUpdateBoardArgs
   >(UPDATE_BOARD);
 
-  // haeri 1->2단계 이동
+  // haeri 1->2단계
   const onClickFirstNext = () => {
     if (startDate === "" || endDate === "") {
       setDateError("거주 기간을 입력해주세요.");
